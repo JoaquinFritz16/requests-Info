@@ -33,6 +33,7 @@ function Restcountrys() {
             country && (
                 <div>
                     <h2>Nombre más común: {country.name.common}</h2>
+                    <h3>Nombre oficial: {country.name.official}</h3>
                     <p>Capital: {country.capital}</p>
                     <p>Región: {country.region}</p>
                     <p>Idioma: {Object.values(country.languages).join(' - ')}</p>
